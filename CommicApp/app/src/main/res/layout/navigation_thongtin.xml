@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/backgroud_navigation">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/imgViewNavigation"
+            android:layout_marginLeft="10dp"
+            android:scrollX="10dp"
+            android:src="@drawable/user_navigation"
+            android:layout_width="90dp"
+            android:layout_height="60dp"></ImageView>
+        <TextView
+            android:textColor="#ff0"
+            android:text="Cuong"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#f44336"
+            android:layout_marginLeft="10dp"
+            android:text="Cuong@gmail.com"
+            android:id="@+id/txtGmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:text="Online"
+            android:id="@+id/txtTrangThai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddCommic">
+    <TextView
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Thêm Truyện Mới"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <EditText
+        android:inputType="text"
+        android:id="@+id/dbTenTruyen"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:hint="Tên Truyện"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/dbNoiDung"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:hint="Nội Dung"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></EditText>
+    <EditText
+        android:inputType="text"
+        android:id="@+id/dbImg"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:hint="Hình Ảnh"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:id="@+id/dbDangBai"
+        android:text="Thêm"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>
